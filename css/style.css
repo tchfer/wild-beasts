@@ -3,6 +3,10 @@ body, p , h1, ul, li, blockquote {
   margin: 0px;
 }
 
+body {
+  font-family: "Vollkorn", Georgia, serif;
+}
+
 li {
   list-style: none;
 }
