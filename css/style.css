@@ -16,7 +16,9 @@ a {
 }
 
 img {
+  display: block;
   max-width: 100%;
+  border-radius: 5px
 }
 
 .structure {
@@ -44,7 +46,7 @@ img {
 
 .header nav ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;;
 }
 
 .header nav a {
@@ -93,8 +95,20 @@ img {
 
 .advert {
   grid-area: advert;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
 }
 
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
 }
