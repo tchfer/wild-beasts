@@ -1,3 +1,16 @@
+body, p , h1, ul, li, blockquote {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100px;
 }
