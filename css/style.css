@@ -112,6 +112,69 @@ img {
   align-self: end;
 }
 
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, .7);
+}
+
+.information p + p {
+  margin-top: 30px;
+}
+
+.title {
+  color: #B07DFB;
+}
+
+.title h1 {
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.title span {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+.characteristics {
+  display: flex;
+  align-items: flex-start;
+}
+
+.characteristics > div {
+  width: 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+
+.characteristics > div:first-child {
+  margin-right: 30px;
+}
+
+.characteristics span {
+  display: block;
+  color: #B07DFB;
+}
+
+.number {
+  font-size: 3em;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+.label {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}
+
 .advert {
   grid-area: advert;
   background: #fafbfc;
