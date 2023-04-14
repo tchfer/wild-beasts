@@ -35,7 +35,7 @@ img {
   .structure {
     grid-template-areas:
     "header header header"
-    "content content content"
+    "sidenav content content"
     "sidenav advert advert"
     "footer footer footer"
     ;
